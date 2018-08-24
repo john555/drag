@@ -1,0 +1,10 @@
+.propertiesBar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  min-width: 20rem;
+  height: 100vh;
+  padding-top: $appBarHeight;
+  background: #fff;
+  box-shadow: 5px 0 20px rgba(0, 0, 0, 0.1);
+}

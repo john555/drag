@@ -1,0 +1,10 @@
+.appBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background: #fff;
+  height: $appBarHeight;
+  z-index: 2;
+  box-shadow: 1px -10px 20px rgba(0, 0, 0, 0.4);
+}

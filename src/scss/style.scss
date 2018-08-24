@@ -1,15 +1,6 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
-
-:root {
-    font-size: 62.5%;
-}
-
-body {
-    font-size: 1.6rem;
-    background: #122121;
-    color: #555;
-    margin: 0;
-}
+@import 'vars';
+@import 'global';
+@import 'app-bar';
+@import 'toolbar';
+@import 'properties-bar';
+@import 'workspace';
