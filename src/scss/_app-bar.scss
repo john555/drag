@@ -7,4 +7,29 @@
   height: $appBarHeight;
   z-index: 2;
   box-shadow: 1px -10px 20px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filenameIndicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:after {
+    content: '';
+    display: inline-block;
+    margin-left: 0.5rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background: $defaultForeground;
+    opacity: 0;
+    transform: opacity 200ms ease-in-out;
+  }
+
+  &.filenameIndicator--edited:after {
+    opacity: 1;
+  }
 }
