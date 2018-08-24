@@ -4,3 +4,10 @@
   padding-top: $appBarHeight;
   padding-left: $toolbarWidth;
 }
+
+.artboard {
+  position: fixed;
+  top: 150px;
+  left: 300px;
+  background: $artboardBackground;
+}

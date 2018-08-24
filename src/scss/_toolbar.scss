@@ -4,7 +4,18 @@
   left: 0;
   width: $toolbarWidth;
   height: 100vh;
-  padding-top: $appBarHeight;
+  padding-top: calc(#{$appBarHeight} + 1rem);
   background: #fff;
   box-shadow: -5px 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.tool {
+  width: calc(#{$toolbarWidth} - 1rem);
+  height: calc(#{$toolbarWidth} - 1rem);
+  margin-left: 0.5rem;
+  border: 1px solid #eee;
+}
+
+.tool + .tool {
+  margin-top: 1.2rem;
 }
